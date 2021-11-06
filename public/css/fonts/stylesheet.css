@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Okashi';
+    src: url('Okashi-italic.eot');
+    src: url('Okashi-italic.eot?#iefix') format('embedded-opentype'),
+        url('Okashi-italic.woff') format('woff'),
+        url('Okashi-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nikkyou';
+    src: url('Nikkyou-Sans.eot');
+    src: url('Nikkyou-Sans.eot?#iefix') format('embedded-opentype'),
+        url('Nikkyou-Sans.woff') format('woff'),
+        url('Nikkyou-Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Harukaze';
+    src: url('Harukaze.eot');
+    src: url('Harukaze.eot?#iefix') format('embedded-opentype'),
+        url('Harukaze.woff') format('woff'),
+        url('Harukaze.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Okashi';
+    src: url('Okashi-Regular.eot');
+    src: url('Okashi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Okashi-Regular.woff') format('woff'),
+        url('Okashi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shinrinyoku';
+    src: url('ShinrinyokuRegular.eot');
+    src: url('ShinrinyokuRegular.eot?#iefix') format('embedded-opentype'),
+        url('ShinrinyokuRegular.woff') format('woff'),
+        url('ShinrinyokuRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

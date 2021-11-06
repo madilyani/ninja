@@ -1,0 +1,590 @@
+.intro {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 150px;
+  padding-top: 120px;
+  &__gate {
+    width: 780px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: -300px;
+    img {
+      width: 100%;
+    }
+  }
+  &__tree {
+    width: 530px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: -120px;
+    img {
+      width: 100%;
+    }
+  }
+  &__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    &-header {
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  h2 {
+    text-align: right;
+    margin-bottom: 30px;
+  }
+  h6 {
+    text-align: right;
+    margin-bottom: 30px;
+  }
+}
+@mixin intro1700 {
+  .intro {
+    .intro {
+      padding-top: 112px;
+    }
+    &__inner {
+      max-width: 900px;
+    }
+    &__tree {
+      width: 400px;
+      left: -80px;
+      top: 25%;
+    }
+    &__gate {
+      width: 600px;
+      right: -300px;
+    }
+  }
+}
+@mixin intro1460 {
+  .intro {
+    padding-top: 106px;
+  }
+}
+@mixin intro1024 {
+  .intro {
+    padding-top: 102px;
+    padding-bottom: 100px;
+    &__gate {
+      width: 400px;
+      right: -220px;
+    }
+    &__tree {
+      width: 250px;
+      left: -60px;
+      top: 40%;
+    }
+    &__inner {
+      justify-content: center;
+      align-items: center;
+      &-header {
+        height: 120px;
+      }
+    }
+    h2 {
+      text-align: center;
+    }
+    h6 {
+      text-align: center;
+    }
+  }
+  .cloud {
+    max-width: 120px;
+    &:nth-child(1) {
+      top: -25px;
+    }
+    &:nth-child(2) {
+      bottom: -25px;
+    }
+    &:nth-child(3) {
+      top: -10px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+@mixin intro600 {
+  .intro {
+    &__gate {
+      right: -260px;
+    }
+    &__tree {
+      left: -120px;
+    }
+  }
+  .cloud {
+    width: 33.3%;
+    max-width: unset;
+    margin: 0;
+    img {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+.cloud {
+  position: relative;
+  margin: 0 40px;
+  &:nth-child(1) {
+    top: -50px;
+  }
+  &:nth-child(2) {
+    bottom: -50px;
+  }
+  &:nth-child(3) {
+    top: -10px;
+  }
+}
+.nft {
+  padding: 100px 0;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-image {
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      overflow: hidden;
+      img {
+        @include fullImage;
+      }
+    }
+  }
+}
+@mixin nft1700 {
+  .nft {
+    &__inner {
+      &-image {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}
+@mixin nft1460 {
+  .nft {
+    &__inner {
+      &-image {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}
+@mixin nft1024 {
+  .nft {
+    &__inner {
+      &-image {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}
+@mixin nft840 {
+  .nft {
+    padding: 50px 0;
+    &__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+      &-image {
+        margin: 20px 50px;
+      }
+    }
+  }
+}
+@mixin nft600 {
+  .nft {
+    &__inner {
+      &-image {
+        width: 150px;
+        height: 150px;
+        margin: 15px 30px;
+      }
+    }
+  }
+}
+.mint {
+  margin-bottom: 200px;
+  &__inner {
+    max-width: 1540px;
+    margin: 0 auto;
+    background: $black-1;
+    padding: 20px 40px 40px 40px;
+    &-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      h6 {
+        margin-right: 40px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    &-image {
+      width: 290px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h6 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .button-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 490px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px 0;
+  }
+}
+@mixin mint1024 {
+  .mint {
+    .button-primary {
+      max-width: 300px;
+    }
+  }
+}
+@mixin mint840 {
+  .mint {
+    &__inner {
+      &-image {
+        width: 150px;
+      }
+    }
+    .button-primary {
+      max-width: 240px;
+    }
+  }
+}
+@mixin mint600 {
+  .mint {
+    margin-bottom: 100px;
+    .auto__container {
+      padding: 0;
+    }
+    &__inner {
+      padding: 10px 20px;
+    }
+  }
+}
+.sideImage {
+  margin-bottom: 150px;
+  &__inner {
+    padding-right: 200px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-content {
+      width: calc(100% - 430px);
+    }
+    &-image {
+      width: 310px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $black-1;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  h4 {
+    margin-bottom: 40px;
+  }
+  h3 {
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  &.right {
+    h4 {
+      text-align: right;
+    }
+    h3 {
+      text-align: right;
+    }
+    p {
+      text-align: right;
+    }
+  }
+}
+@mixin sideImage1700 {
+  .sideImage {
+    &__inner {
+      padding-right: 50px;
+    }
+  }
+}
+@mixin sideImage1460 {
+  .sideImage {
+    &__inner {
+      padding: 0;
+      &-content {
+        width: calc(100% - 350px);
+      }
+    }
+    h3 {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
+@mixin sideImage840 {
+  .sideImage {
+    &__inner {
+      flex-direction: column;
+      &-content {
+        width: 100%;
+        order: 1;
+      }
+      &-image {
+        order: 2;
+        margin-top: 40px;
+        margin: 40px 0 0 auto;
+      }
+    }
+    &.right {
+      .sideImage {
+        &__inner {
+          &-image {
+            margin: 40px auto 0 0;
+          }
+        }
+      }
+    }
+  }
+}
+@mixin sideImage600 {
+  .sideImage {
+    margin-bottom: 50px;
+    &__inner {
+      &-image {
+        width: 100%;
+      }
+    }
+    h4 {
+      margin-bottom: 15px;
+    }
+    h3 {
+      margin-left: 0;
+      margin-bottom: 15px;
+      font-size: 26px;
+    }
+  }
+}
+.team {
+  &__inner {
+    &-meet {
+      padding: 100px 0;
+      &-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 80%;
+        margin: 0 auto;
+      }
+      &-column {
+        width: calc(33.3% - 200px);
+        margin: 30px 100px;
+        &-image {
+          width: 210px;
+          height: 210px;
+          margin: 0 auto;
+          img {
+            @include fullImage;
+          }
+        }
+      }
+    }
+    &-info {
+      margin-bottom: 80px;
+      h6 {
+        margin-bottom: 0;
+      }
+    }
+  }
+  h4 {
+    text-align: center;
+    letter-spacing: 20px;
+    margin-bottom: 10px;
+  }
+  h6 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  h2 {
+    text-align: center;
+  }
+  h5 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 0;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 15px;
+      width: 30px;
+      height: 25px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  p {
+    line-height: 1;
+    text-align: center;
+  }
+}
+@mixin team1700 {
+  .team {
+    &__inner {
+      &-meet {
+        &-column {
+          width: calc(33.3% - 100px);
+          margin: 15px 50px;
+        }
+      }
+    }
+  }
+}
+@mixin team1460 {
+  .team {
+    &__inner {
+      &-meet {
+        &-row {
+          max-width: unset;
+        }
+      }
+    }
+  }
+}
+@mixin team1024 {
+  .team {
+    &__inner {
+      &-meet {
+        padding: 25px 0;
+        &-column {
+          width: calc(33.3% - 30px);
+          margin: 15px;
+        }
+      }
+    }
+  }
+}
+@mixin team840 {
+  .team {
+    h6 {
+      margin-bottom: 20px;
+    }
+    &__inner {
+      &-info {
+        margin-bottom: 40px;
+        h6 {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-bottom: 0;
+        }
+      }
+      &-meet {
+        padding: 25px 0;
+        &-column {
+          width: calc(50% - 30px);
+        }
+      }
+    }
+  }
+}
+@mixin team600 {
+  .team {
+    &__inner {
+      &-info {
+        margin-bottom: 20px;
+      }
+      &-meet {
+        padding: 15px 0;
+        &-column {
+          width: calc(100% - 20px);
+          margin: 10px;
+        }
+      }
+    }
+    h4 {
+      letter-spacing: 5px;
+    }
+  }
+}
+.join {
+  background: $black-1;
+  padding: 80px 0 100px 0;
+  &__inner {
+    max-width: 1340px;
+    margin: 0 auto;
+  }
+  h2 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  h5 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .button-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+@mixin join1460 {
+  .join {
+    .button-secondary {
+      letter-spacing: 10px;
+      max-width: 300px;
+    }
+  }
+}
+@mixin join840 {
+  .join {
+    .button-secondary {
+      font-size: 24px;
+      max-width: 250px;
+    }
+  }
+}

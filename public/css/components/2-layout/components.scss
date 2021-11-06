@@ -1,0 +1,91 @@
+h2 {
+  font-size: 90px;
+  line-height: 1.2;
+  letter-spacing: 20px;
+  font-family: $font-harukaze;
+}
+h3 {
+  font-size: 72px;
+  line-height: 1.2;
+  font-family: $font-nikkyou;
+  letter-spacing: 15px;
+  &.harukaze {
+    font-family: $font-harukaze;
+  }
+}
+h4 {
+  font-size: 60px;
+  font-family: $font-nikkyou;
+  line-height: 1.2;
+  letter-spacing: 13px;
+
+  &.harukaze {
+    font-family: $font-harukaze;
+  }
+}
+h5 {
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 10px;
+
+  font-weight: $font-shirin;
+  &.harukaze {
+    font-family: $font-harukaze;
+  }
+  &.okashi {
+    font-family: $font-okashi;
+    font-size: 46px;
+  }
+}
+h6 {
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: $font-okashi;
+  letter-spacing: 6px;
+  &.sm {
+    font-size: 30px;
+  }
+  &.nikyu {
+    font-family: $font-nikkyou;
+  }
+  &.shirin {
+    font-family: $font-shirin;
+  }
+}
+p {
+  font-size: 24px;
+  line-height: 2;
+  font-family: $font-okashi;
+}
+.button {
+  &-primary {
+    color: $white;
+    font-size: 60px;
+    line-height: 1;
+    font-family: $font-harukaze;
+    padding: 20px 35px;
+    display: inline-block;
+    background: $main;
+    border-radius: 15px;
+    letter-spacing: 15px;
+    @include transition;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  &-secondary {
+    color: $main;
+    font-size: 32px;
+    line-height: 1;
+    font-family: $font-harukaze;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    border: 3px solid $main;
+    letter-spacing: 15px;
+    @include transition;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

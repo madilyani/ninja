@@ -1,0 +1,181 @@
+@include xxxxlg-xxxxxlg {
+  h2 {
+    font-size: 72px;
+    letter-spacing: 18px;
+  }
+  h3 {
+    font-size: 60px;
+    letter-spacing: 12px;
+  }
+  h4 {
+    font-size: 48px;
+    letter-spacing: 10px;
+  }
+  h5 {
+    font-size: 36px;
+    letter-spacing: 8px;
+    &.okashi {
+      font-size: 32px;
+      letter-spacing: 6px;
+    }
+  }
+  h6 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    &.sm {
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+  }
+  p {
+    font-size: 18px;
+  }
+  .button-primary {
+    font-size: 42px;
+  }
+  @include header1700;
+  @include nav1700;
+  @include intro1700;
+  @include nft1700;
+  @include sideImage1700;
+  @include team1700;
+}
+@include xxxlg-xxxxlg {
+  h2 {
+    font-size: 60px;
+    letter-spacing: 12px;
+  }
+  h3 {
+    font-size: 48px;
+    letter-spacing: 10px;
+  }
+  h4 {
+    font-size: 36px;
+    letter-spacing: 8px;
+  }
+  h5 {
+    font-size: 32px;
+    letter-spacing: 6px;
+    &.okashi {
+      font-size: 30px;
+      letter-spacing: 4px;
+    }
+  }
+  h6 {
+    font-size: 23px;
+    letter-spacing: 3px;
+    &.sm {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+  }
+  p {
+    font-size: 16px;
+  }
+  .button-primary {
+    font-size: 32px;
+    letter-spacing: 6px;
+  }
+  @include header1460;
+  @include nav1460;
+  @include intro1460;
+  @include join1460;
+  @include footer1460;
+  @include team1460;
+  @include sideImage1460;
+  @include nft1460;
+}
+@include lg-xlg {
+  h2 {
+    font-size: 48px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 36px;
+    letter-spacing: 10px;
+  }
+  h4 {
+    font-size: 32px;
+    letter-spacing: 6px;
+  }
+  h5 {
+    font-size: 30px;
+    letter-spacing: 6px;
+    &.okashi {
+      font-size: 23px;
+      letter-spacing: 3px;
+    }
+  }
+  h6 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    &.sm {
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+  }
+  p {
+    font-size: 16px;
+  }
+  .button-primary {
+    font-size: 24px;
+    letter-spacing: 6px;
+  }
+  @include nav1024;
+  @include header1024;
+  @include intro1024;
+  @include nft1024;
+  @include mint1024;
+  @include team1024;
+}
+@include md-lg {
+  @include sideImage840;
+  @include team840;
+  @include nft840;
+  @include mint840;
+  @include join840;
+}
+@include sm-md {
+  h2 {
+    font-size: 36px;
+    letter-spacing: 10px;
+  }
+  h3 {
+    font-size: 28px;
+    letter-spacing: 8px;
+  }
+  h4 {
+    font-size: 24px;
+    letter-spacing: 6px;
+  }
+  h5 {
+    font-size: 22px;
+    letter-spacing: 4px;
+    &.okashi {
+      font-size: 20px;
+      letter-spacing: 3px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    &.sm {
+      font-size: 16px;
+      letter-spacing: 2px;
+    }
+  }
+  p {
+    font-size: 16px;
+  }
+  .button-primary {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  @include team600;
+  @include nft600;
+  @include mint600;
+  @include sideImage600;
+  @include intro600;
+  @include header600;
+  @include nav600;
+}

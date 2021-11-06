@@ -1,0 +1,38 @@
+.footer {
+  padding: 150px 0 50px 0;
+  &__inner {
+    &-social {
+      display: flex;
+      align-items: center;
+      margin-bottom: 45px;
+      &-link {
+        margin-right: 30px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  h4 {
+    margin-bottom: 20px;
+  }
+  h6 {
+    margin-bottom: 10px;
+  }
+}
+@mixin footer1460 {
+  .footer {
+    &__inner {
+      &-social {
+        margin-bottom: 20px;
+        &-link {
+          width: 50px;
+        }
+      }
+    }
+  }
+}

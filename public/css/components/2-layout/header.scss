@@ -1,0 +1,85 @@
+.header {
+  position: absolute;
+  padding: 30px 0;
+  z-index: 3000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  &__inner {
+    display: flex;
+    &-logo {
+      font-size: 60px;
+      line-height: 1;
+      font-family: $font-nikkyou;
+      margin-right: 50px;
+      color: $white;
+    }
+  }
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: $black;
+    animation: sticky 0.3s linear;
+    padding: 15px 0;
+  }
+}
+.anchor {
+  position: relative;
+  top: -150px;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+}
+@keyframes sticky {
+  0% {
+    top: -60px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@mixin header1700 {
+  .header {
+    &__inner {
+      &-logo {
+        font-size: 52px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+@mixin header1460 {
+  .header {
+    &__inner {
+      &-logo {
+        font-size: 42px;
+      }
+    }
+  }
+}
+@mixin header1024 {
+  .header {
+    &__inner {
+      justify-content: space-between;
+      display: flex;
+      align-items: center;
+    }
+    &.sticky {
+      background: $black-1;
+    }
+  }
+}
+@mixin header600 {
+  .header {
+    padding: 15px 0;
+    &__inner {
+      &-logo {
+        font-size: 30px;
+      }
+    }
+  }
+}
