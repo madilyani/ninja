@@ -31,7 +31,7 @@ export default function Header(props) {
                 <a href="#team" className="nav__inner-link">
                   Team
                 </a>
-                <a href="#team" className="nav__inner-link">
+                <a href="#join" className="nav__inner-link">
                   FAQ
                 </a>
                 <a href="#footer" className="nav__inner-link">

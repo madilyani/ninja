@@ -83,7 +83,7 @@ export default function Main() {
         </div>
       </section>
 
-      <section className="team" id="team">
+      <section className="team">
         <div className="anchor" id="team"></div>
 
         <div className="auto__container">
@@ -110,7 +110,7 @@ export default function Main() {
       </section>
 
       <section className="join">
-        <div className="anchor" id="faq"></div>
+        <div className="anchor" id="join"></div>
         <div className="auto__container">
           <div className="join__inner">
             <h2>JOIN THE COMMUNITY</h2>
