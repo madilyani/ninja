@@ -18,7 +18,7 @@ export default function Main() {
               <h6 className="sm shirin">max 5 per txn</h6>
             </div>
             <div className="mint__inner-image">
-              <img src="images/nft-1.png" alt="image" />
+              <img src="images/nft-1.png" alt="nft" />
             </div>
             <a href="/" className="button-primary">
               MINT
@@ -49,7 +49,7 @@ export default function Main() {
               </p>
             </div>
             <div className="sideImage__inner-image">
-              <img src="images/image.png" alt="image" />
+              <img src="images/image.png" alt="nft" />
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Main() {
         <div className="auto__container">
           <div className="sideImage__inner">
             <div className="sideImage__inner-image">
-              <img src="images/image.png" alt="image" />
+              <img src="images/image.png" alt="nft" />
             </div>
             <div className="sideImage__inner-content">
               <h4>DAO</h4>

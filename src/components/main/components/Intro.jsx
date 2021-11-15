@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Gate from "./parallax/Gate";
 import Tree from "./parallax/Tree";
 import Cloud from "./parallax/Clouds";
